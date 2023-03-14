@@ -140,12 +140,16 @@ h1, h2{
     bottom: 1.25rem;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1200px){
 
+    body{
+    background-color: var(--color-gray-200);
+    }
 
     main{
         max-width: 1440px;
         margin: auto;
+        max-height: 95vh;
     }
 
     h1{
@@ -168,7 +172,7 @@ h1, h2{
     }
 
     .grid-item{
-        height: 250px;
+        height: 225px;
     }
 
     .item-1{
@@ -184,7 +188,7 @@ h1, h2{
     .item-3{
         grid-row: 3/4;
         grid-column: 6/ 11;
-        margin-top: -17rem;
+        margin-top: -16rem;
     }
 
     .item-4{
